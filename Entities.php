@@ -1,7 +1,6 @@
 <?php
 
 abstract class Figure{
-
     protected $square;
     protected $perimeter;
 
@@ -10,7 +9,6 @@ abstract class Figure{
 }
 
 class Triangle extends Figure{
-
     private $firstSide;
     private $secondSide;
     private $thirdSide;
@@ -39,7 +37,6 @@ class Triangle extends Figure{
 }
 
 class Square extends Figure{
-
     private $side;
 
     public function __construct($side){
@@ -60,7 +57,6 @@ class Square extends Figure{
 }
 
 class Rectangle extends Figure{
-
     private $firstSide;
     private $secondSide;
 
@@ -83,7 +79,6 @@ class Rectangle extends Figure{
 }
 
 class Rhombus extends Figure{
-
     private $firstSide;
     private $secondSide;
     private $height;
